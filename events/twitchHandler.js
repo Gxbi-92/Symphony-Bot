@@ -35,7 +35,7 @@ async function fetchTwitchStreams(client) {
                     .setAuthor({
                         name: 'New content Uploaded!',
                         iconURL: cmdIcons.TwitchIcon,
-                        url: 'https://discord.gg/xQF9f9yUEM', 
+                        url: 'https://discord.gg/G5eb3D4BfN', 
                     })
                     .setDescription(`[Watch Now](https://www.twitch.tv/${latestStream.user_name})`)
                     .addFields({ name: 'Game', value: latestStream.game_name, inline: true })

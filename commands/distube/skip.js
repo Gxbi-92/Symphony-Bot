@@ -34,7 +34,7 @@ module.exports = {
                     .setAuthor({ 
                         name: lang.skipNoSongsTitle, 
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/G5eb3D4BfN"
                     })
                     .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })   
                     .setDescription(lang.skipNoSongsMessage);
@@ -49,7 +49,7 @@ module.exports = {
                 .setAuthor({ 
                     name: lang.skipSuccessTitle, 
                     iconURL: musicIcons.skipIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/G5eb3D4BfN"
                 })
                 .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })  
                 .addFields(
@@ -67,7 +67,7 @@ module.exports = {
                     .setAuthor({ 
                         name: lang.skipNoQueueTitle, 
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/G5eb3D4BfN"
                     })
                     .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })  
                     .setDescription(lang.skipNoQueueMessage);
@@ -79,7 +79,7 @@ module.exports = {
                     .setAuthor({ 
                         name: lang.skipNoUpNextTitle, 
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/G5eb3D4BfN"
                     })
                     .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })  
                     .setDescription(lang.skipNoUpNextMessage);

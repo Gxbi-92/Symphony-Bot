@@ -31,7 +31,7 @@ module.exports = {
                 .setAuthor({ 
                     name: lang.pauseTitle, 
                     iconURL: musicIcons.pauseresumeIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/G5eb3D4BfN"
                 })
                 .setFooter({ text: lang.pauseFooterText, iconURL: musicIcons.footerIcon })
                 .setDescription(lang.pauseSuccess);
@@ -53,7 +53,7 @@ module.exports = {
                             .setAuthor({ 
                                 name: lang.pauseNoQueueTitle, 
                                 iconURL: musicIcons.wrongIcon,
-                                url: "https://discord.gg/xQF9f9yUEM"
+                                url: "https://discord.gg/G5eb3D4BfN"
                             })
                             .setFooter({ text: lang.pauseFooterText, iconURL: musicIcons.footerIcon })
                             .setDescription(lang.pauseNoQueue);
@@ -64,7 +64,7 @@ module.exports = {
                             .setAuthor({ 
                                 name: lang.pauseNotPausedTitle, 
                                 iconURL: musicIcons.wrongIcon,
-                                url: "https://discord.gg/xQF9f9yUEM"
+                                url: "https://discord.gg/G5eb3D4BfN"
                             })
                             .setFooter({ text: lang.pauseFooterText, iconURL: musicIcons.footerIcon })
                             .setDescription(lang.pauseNotPaused);
@@ -75,7 +75,7 @@ module.exports = {
                             .setAuthor({ 
                                 name: lang.pauseAlreadyPausedTitle, 
                                 iconURL: musicIcons.wrongIcon,
-                                url: "https://discord.gg/xQF9f9yUEM"
+                                url: "https://discord.gg/G5eb3D4BfN"
                             })
                             .setFooter({ text: lang.pauseFooterText, iconURL: musicIcons.footerIcon })
                             .setDescription(lang.pauseAlreadyPaused);
@@ -86,7 +86,7 @@ module.exports = {
                             .setAuthor({ 
                                 name: lang.pauseErrorTitle, 
                                 iconURL: musicIcons.wrongIcon,
-                                url: "https://discord.gg/xQF9f9yUEM"
+                                url: "https://discord.gg/G5eb3D4BfN"
                             })
                             .setFooter({ text: lang.pauseFooterText, iconURL: musicIcons.footerIcon })
                             .setDescription(lang.pauseError);

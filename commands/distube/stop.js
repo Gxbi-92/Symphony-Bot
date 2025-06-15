@@ -32,7 +32,7 @@ module.exports = {
                 .setAuthor({ 
                     name: lang.stopSuccessTitle, 
                     iconURL: musicIcons.stopIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/G5eb3D4BfN"
                 })
                 .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })   
                 .setDescription(lang.stopSuccessMessage);
@@ -47,7 +47,7 @@ module.exports = {
                     .setAuthor({ 
                         name: lang.stopNoQueueTitle, 
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/G5eb3D4BfN"
                     })
                     .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })   
                     .setDescription(lang.stopNoQueueMessage);
@@ -59,7 +59,7 @@ module.exports = {
                     .setAuthor({ 
                         name: lang.stopAlreadyStoppedTitle, 
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/G5eb3D4BfN"
                     })
                     .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })   
                     .setDescription(lang.stopAlreadyStoppedMessage);

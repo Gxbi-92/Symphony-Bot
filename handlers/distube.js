@@ -131,7 +131,7 @@ module.exports = async (client) => {
                     color: 0xDC92FF,
                     author: {
                         name: 'Now playing',
-                        url: 'https://discord.gg/xQF9f9yUEM',
+                        url: 'https://discord.gg/G5eb3D4BfN',
                         icon_url: musicIcons.playerIcon
                     },
                     description: `- Song name: **${song.name}** \n- Duration: **${song.formattedDuration}**\n- Requested by: ${song.user}`,
@@ -186,7 +186,7 @@ module.exports = async (client) => {
                     .setAuthor({ 
                         name: 'Song added successfully', 
                         iconURL: musicIcons.correctIcon, 
-                        url: 'https://discord.gg/xQF9f9yUEM' 
+                        url: 'https://discord.gg/G5eb3D4BfN' 
                     })
                     .setDescription(`**${song.name}**\n- Duration: **${song.formattedDuration}**\n- Added by: ${song.user}`)
                     .setThumbnail(song.thumbnail)
@@ -224,7 +224,7 @@ module.exports = async (client) => {
                     .setAuthor({ 
                         name: 'Playlist added successfully', 
                         iconURL: musicIcons.correctIcon,
-                        url: 'https://discord.gg/xQF9f9yUEM' 
+                        url: 'https://discord.gg/G5eb3D4BfN' 
                     })
                     .setDescription(`**${playlist.name}**\n- Songs: **${playlist.songs.length}**\n- Added by: ${playlist.user}`)
                     .setThumbnail(playlist.thumbnail)

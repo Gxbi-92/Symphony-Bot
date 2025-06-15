@@ -24,7 +24,7 @@ module.exports = {
                 .setAuthor({
                     name: lang.volumeAlertTitle,
                     iconURL: cmdIcons.dotIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/G5eb3D4BfN"
                 })
                 .setDescription(lang.volumeAlertMessage)
                 .setTimestamp();
@@ -53,7 +53,7 @@ module.exports = {
                     .setAuthor({
                         name: lang.volumeNoSongTitle,
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/G5eb3D4BfN"
                     })
                     .setFooter({ text: 'DisTube Player', iconURL: musicIcons.footerIcon })
                     .setDescription(lang.volumeNoSongMessage);
@@ -68,7 +68,7 @@ module.exports = {
                 .setAuthor({
                     name: lang.volumeSuccessTitle,
                     iconURL: musicIcons.volumeIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/G5eb3D4BfN"
                 })
                 .setDescription(lang.volumeSuccessMessage.replace('{volumeLevel}', volumeLevel))
                 .setFooter({ text: 'DisTube Player', iconURL: musicIcons.footerIcon });

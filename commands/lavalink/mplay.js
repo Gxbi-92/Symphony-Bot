@@ -240,7 +240,7 @@ module.exports = {
                         .setColor('#FF0000')
                         .setTitle('❌ No Active Player')
                         .setDescription('There is no active music player in this server.\nUse `/music play` to start playing music.')
-                        .setFooter({ text: 'All In One Music', iconURL: musicIcons.alertIcon });
+                        .setFooter({ text: 'Symphony Music', iconURL: musicIcons.alertIcon });
                 
                     const reply = await interaction.editReply({ embeds: [noPlayerEmbed] });
                     setTimeout(() => reply.delete().catch(() => {}), 3000);
@@ -328,7 +328,7 @@ module.exports = {
                                     .setColor('#FF0000')
                                     .setTitle('❌ Spotify Error')
                                     .setDescription('Failed to process Spotify link. Please check your Spotify credentials or try another link.')
-                                    .setFooter({ text: 'All In One Music', iconURL: musicIcons.alertIcon });
+                                    .setFooter({ text: 'Symphony Music', iconURL: musicIcons.alertIcon });
                                 
                                 const reply = await interaction.editReply({ embeds: [errorEmbed] });
                                 setTimeout(() => reply.delete().catch(() => {}), 5000);
@@ -345,7 +345,7 @@ module.exports = {
                                     .setColor('#FF0000')
                                     .setTitle('❌ Unsupported Content')
                                     .setDescription('YouTube mixes are currently not supported.\nPlease use a different track or playlist.')
-                                    .setFooter({ text: 'All In One Music', iconURL: musicIcons.alertIcon });
+                                    .setFooter({ text: 'Symphony Music', iconURL: musicIcons.alertIcon });
                             
                                 const reply = await interaction.editReply({ embeds: [mixEmbed] });
                                 setTimeout(() => reply.delete().catch(() => {}), 3000);
@@ -358,7 +358,7 @@ module.exports = {
                                     .setColor('#FF0000')
                                     .setTitle('❌ No Results Found')
                                     .setDescription('We couldn\'t find any tracks matching your query.\nTry modifying your search.')
-                                    .setFooter({ text: 'All In One Music', iconURL: musicIcons.alertIcon });
+                                    .setFooter({ text: 'Symphony Music', iconURL: musicIcons.alertIcon });
                             
                                 const reply = await interaction.editReply({ embeds: [noResultsEmbed] });
                                 setTimeout(() => reply.delete().catch(() => {}), 3000);
@@ -413,7 +413,7 @@ module.exports = {
                                     .setColor('#FF0000')
                                     .setTitle('❌ No Results Found')
                                     .setDescription('We couldn\'t find any tracks matching your query.\nTry modifying your search.')
-                                    .setFooter({ text: 'All In One Music', iconURL: musicIcons.alertIcon });
+                                    .setFooter({ text: 'Symphony Music', iconURL: musicIcons.alertIcon });
                             
                                 const reply = await interaction.editReply({ embeds: [noResultsEmbed] });
                                 setTimeout(() => reply.delete().catch(() => {}), 3000);
@@ -446,7 +446,7 @@ module.exports = {
                             .setColor('#FF0000')
                             .setTitle('❌ Error Occurred')
                             .setDescription('Something went wrong while processing your request.\n\n**Tips:**\n- Try changing the Lavalink in config.\n- Verify the track/playlist URL.')
-                            .setFooter({ text: 'All In One Music', iconURL: musicIcons.alertIcon })
+                            .setFooter({ text: 'Symphony Music', iconURL: musicIcons.alertIcon })
                             .setTimestamp();
                     
                         const reply = await interaction.editReply({ embeds: [errorEmbed] });
@@ -469,7 +469,7 @@ module.exports = {
                             .setColor('#FF0000')
                             .setTitle('❌ No Track Playing')
                             .setDescription('There is no track currently playing.\nUse `/music play` to queue a song.')
-                            .setFooter({ text: 'All In One Music', iconURL: musicIcons.alertIcon });
+                            .setFooter({ text: 'Symphony Music', iconURL: musicIcons.alertIcon });
                     
                         const reply = await interaction.editReply({ embeds: [noTrackEmbed] });
                         setTimeout(() => reply.delete().catch(() => {}), 3000);

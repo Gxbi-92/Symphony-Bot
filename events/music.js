@@ -209,7 +209,7 @@ module.exports = (client) => {
                     thumbnailURL: track.info.thumbnail,
                     songTitle: track.info.title,
                     songArtist: track.info.author,
-                    trackRequester: track.requester ? track.requester.username : "All In One",
+                    trackRequester: track.requester ? track.requester.username : "Symphony",
                     fontPath: path.join(__dirname, "../UI", "fonts", "AfacadFlux-Regular.ttf"),
                     backgroundColor: "#FF00FF",
                 });
@@ -226,7 +226,7 @@ module.exports = (client) => {
                 ` - Requested by: ${track.requester ? `<@${track.requester.id}>` : "Unknown"}`; 
                 
                 const embed = new EmbedBuilder()
-                    .setAuthor({ name: "Now Playing..", iconURL: musicIcons.playerIcon, url: "https://discord.gg/xQF9f9yUEM" })
+                    .setAuthor({ name: "Now Playing..", iconURL: musicIcons.playerIcon, url: "https://discord.gg/G5eb3D4BfN" })
                     .setDescription(description)
                     .setImage('attachment://songcard.png')
                     .setFooter({ text: 'Let the Beat Drop!', iconURL: musicIcons.footerIcon })

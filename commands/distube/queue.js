@@ -22,7 +22,7 @@ module.exports = {
                 .setAuthor({ 
                     name: lang.queueNoSongsTitle, 
                     iconURL: musicIcons.wrongIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/G5eb3D4BfN"
                 })
                 .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })   
                 .setDescription(lang.queueNoSongsMessage);
@@ -39,7 +39,7 @@ module.exports = {
             .setAuthor({ 
                 name: lang.queueTitle, 
                 iconURL: musicIcons.beatsIcon,
-                url: "https://discord.gg/xQF9f9yUEM"
+                url: "https://discord.gg/G5eb3D4BfN"
             })
             .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })
             .setDescription(`${lang.queueSongs} ${queue.songs.length}`)

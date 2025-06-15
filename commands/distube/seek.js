@@ -24,7 +24,7 @@ module.exports = {
                 .setAuthor({ 
                     name: lang.seekAlertTitle, 
                     iconURL: cmdIcons.dotIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/G5eb3D4BfN"
                 })
                 .setDescription(lang.seekAlertMessage)
                 .setTimestamp();
@@ -62,7 +62,7 @@ module.exports = {
                 .setAuthor({ 
                     name: lang.seekSuccessTitle, 
                     iconURL: musicIcons.correctIcon,
-                    url: "https://discord.gg/xQF9f9yUEM"
+                    url: "https://discord.gg/G5eb3D4BfN"
                 })
                 .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })
                 .setDescription(lang.seekSuccessMessage.replace('%timestamp%', this.formatTimestamp(seekSeconds)));
@@ -78,7 +78,7 @@ module.exports = {
                     .setAuthor({ 
                         name: lang.seekNoQueueTitle, 
                         iconURL: musicIcons.wrongIcon,
-                        url: "https://discord.gg/xQF9f9yUEM"
+                        url: "https://discord.gg/G5eb3D4BfN"
                     })
                     .setFooter({ text: 'Distube Player', iconURL: musicIcons.footerIcon })
                     .setDescription(lang.seekNoQueueMessage);
