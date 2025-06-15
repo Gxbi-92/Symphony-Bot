@@ -16,7 +16,7 @@ module.exports = {
         
         if (interaction.isCommand && interaction.isCommand()) {
      
-            const BOT_ICON = "https://cdn.discordapp.com/emojis/1334648756649590805.png";
+            const BOT_ICON = "https://images-ext-1.discordapp.net/external/b5eBIw67j5QHrBPB-Ph71V7pwRnrZXVwasAArcV5qM8/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/999932310612869151/4e7b92a2b7aa4789443654cd6017f9fa.png?format=webp&quality=lossless&width=384&height=384";
             const EMBED_COLOR = "#5865F2"; 
             const FOOTER_TEXT = "Symphony Bot • Command Center for Chilling Lounge";
             const COMMANDS_DIR = path.join(__dirname, '../../commands');
